@@ -8,23 +8,24 @@ body {
     background-color: #d9dcd6;
 }
 
-.header {
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /*ensured the font-family is consistent throughout the page*/
     background-color: #2a607c;
     color: #ffffff;
 }
 
-.header h1 {
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+header h1 .seo {
     color: #d9dcd6;
 }
 
-.header div {
+/* changed to be consistent with use of semantic nav */
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,11 +33,11 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+header nav ul {
     list-style-type: none;
 }
 
-.header div ul li {
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -69,11 +70,17 @@ p {
     margin-left: 25px;
 }
 
+/* added display : flex to make sure the content is displayed in the correct order */
 .content {
+    display: inline-block;
     width: 75%;
     height: 100%;
-    display: inline-block;
     margin-left: 20px;
+}
+
+aside {
+    width: 25%;
+    height: 100%;
 }
 
 .benefits {
@@ -108,8 +115,9 @@ p {
 }
 
 /* reduced the three classes for the main section boxes into one class for more efficient use of css */
-
+/* added flex basis to ensure the boxes are the same size and added margin bottom to ensure there is space between the boxes */
 .main-section-boxes {
+    flex-basis: 33.33%;
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -128,13 +136,15 @@ p {
     font-size: 36px;
 }
 
-.footer {
-    padding: 30px;
+/* now refers to a semantic tag */
+footer {
+    padding: 20px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+/* now refers to a semantic tag with the heading in the correct order */
+footer h3 {
     font-size: 20px;
 }
