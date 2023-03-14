@@ -14,3 +14,7 @@ There were a few points deducted for the heading attributes not being in sequent
 - Fixed
 
 Your README.md is missing a detailed description, a screenshot of the application, and a link to the deployed live link
+
+- Detailed description added
+- Screenshot added
+- Link to live deployment added
