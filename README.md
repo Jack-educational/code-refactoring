@@ -1,66 +1,39 @@
-# 01 HTML CSS Git: Code Refactor - Summary of work
 
-In this activity, you’ll practice aligning CSS Flexbox items inside parent containers.
+# CODE REFACTORING   <image src="https://img.shields.io/badge/license-MIT-green/size=100"> 
+## Live deployment
 
-## Requirements
+https://jack-educational.github.io/code-refactoring/
+  
+  ## Description
+  This is the first assignment of the frontend developer bootcamp that is in the style of an on-the-job ticket. This means we begin with starter code that we need need to modify. The modification involves accessibility improvement such as addition of ALT attributes to IMG tags as well as refactoring the HTML to make use of semantic tags which are structured appropriately e.g. headings in the correct hierarchy.
+  
+  ## Table of Contents
 
-This challenge is assessed on the following criteria: 
+- [Live deployment](#live-deployment)
+- [Description](#description)
+- [Table of Contents](#table-of-contents)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Questions](#questions)
 
-### Technical Acceptance Criteria: 40%
+  ## Installation
+  Simply navigate to the live deployment URL at the top of the readme and view the page. No installation required.
+  
+  ## Usage
+  Simply navigate to the live deployment URL. The page will look like the following image:
+  <br>
+  <img src="assets/images/finished-page-preview.png" />
 
-* Satisfies all of the above acceptance criteria plus the following code improvements:
-
-  * Application's links all function correctly. - DONE
-
-  * Application's CSS selectors and properties are consolidated and organized to follow semantic structure.
-
-  * Application's CSS file is properly commented. - DONE
-
-### Deployment: 32%
-
-* Application deployed at live URL. - DONE
-
-* Application loads with no errors. - DONE
-
-* Application GitHub URL submitted. - DONE
-
-* GitHub repository that contains application code. - DONE
-
-### Application Quality: 15%
-
-* Application resembles (at least 90%) screenshots provided in the challenge instructions. - DONE
-
-### Repository Quality: 13%
-
-* Repository has a unique name. - DONE
-
-* Repository follows best practices for file structure and naming conventions. - DONE
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages. - DONE
-
-* Repository contains quality README file with description, screenshot, and link to deployed application. - DONE
-
-## Changes made
-
-* Semantic HTML elements added - Use of sections, aside
-
-* HTML elements follow a logical structure independent of styling and positioning
-
-* Image and icon elements contain accessible `alt` attributes 
-
-* Heading attributes fall in sequential order
-
-* Title elements contain a concise, descriptive title
-
-- Open the file `index.html`.
-
-  - This file includes parent containers with child elements.
-
-- When you open it in your browser, take notice of what it’s missing.
-
-## Application live URL
-
-https://github.com/neverekt/frontend-dev/tree/main/week1/Challenge
+  
+  ## License
+  ![badge](https://img.shields.io/badge/license-MIT-brightgreen)
+  This application is covered under the MIT license.
+  
+  ## Contributing
+  any contributions are welcome, feel free to fork, star and contact me using the email address on my gitub profile
+  
+  ## Questions
+  If you have any questions, please contact me using the email address on https://github.com/neverekt
 
