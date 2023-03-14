@@ -8,9 +8,10 @@
 </head>
 
 <body>
-    <div class="header">
+    <!-- Changed the div tag to a header to maintain use of semantic HTML tags -->
+    <header>
         <h1>Hori<span class="seo">seo</span>n</h1>
-        <div>
+        <nav>
             <ul>
                 <li>
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
@@ -22,12 +23,12 @@
                     <a href="#social-media-marketing">Social Media Marketing</a>
                 </li>
             </ul>
-        </div>
-    </div>
+        </nav>
+    </header>
 
     <div class="hero"></div>
 
-     <!-- Used section tags instead of div to maintain use of semantic HTML tags -->
+    <!-- Used section tags instead of div to maintain use of semantic HTML tags -->
     <section class="content">
         <div id="search-engine-optimization" class="main-section-boxes">
             <!-- placed image and heading/parapraph in separate section tags -->
@@ -44,8 +45,9 @@
         </section>
 
         </div>
+        <!-- used article semantic tags instead of div to maintain use of semantic HTML tags -->
         <!-- the classes for the following three boxes have been changed to the same one for more efficient css -->
-        <div id="online-reputation-management" class="main-section-boxes">
+        <article id="online-reputation-management" class="main-section-boxes">
 
             <section>
                 <img src="./assets/images/online-reputation-management.jpg" alt="Somebody is sat in front of their laptop with their mobilephone in one hand and
@@ -61,8 +63,8 @@
             </p>
             </section>
 
-        </div>
-        <div id="social-media-marketing" class="main-section-boxes">
+        </article>
+        <article id="social-media-marketing" class="main-section-boxes">
 
             <section>
                 <img src="./assets/images/social-media-marketing.jpg" alt="Six people work around a table with various phrases and icons overlaid in their
@@ -76,7 +78,7 @@
             </p>
         </section>
     
-    </div>
+    </article>
 
     </section>
 
